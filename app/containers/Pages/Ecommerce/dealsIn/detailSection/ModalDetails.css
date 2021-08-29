@@ -1,0 +1,11 @@
+.deal_text {
+    font-size: 15px;
+    color: #ec6f60 ;
+    font-weight: bolder;
+}
+.imgDetailsContainer {
+    position: relative;
+    height:300px;
+    width: 100%;
+    overflow: hidden;
+}

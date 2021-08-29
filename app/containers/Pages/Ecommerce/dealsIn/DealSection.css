@@ -1,0 +1,38 @@
+
+.cardClass:hover .box {
+    transform: translate3d(0, -50px, 0);
+}
+
+.box {
+    margin-top: -30px;
+    height: 180px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow:
+        0 5px 15px -8px rgb(0 0 0 / 24%), 0 8px 10px -5px rgb(0 0 0 / 20%);
+}
+
+.DivButtons {
+    top: 120px;
+    left: 17px;
+    right: 17px;
+    width: calc(100% - 30px);
+    z-index: -1;
+    position: absolute;
+    text-align: center;
+
+}
+
+.btnColorEdit {
+    color: #3d7c1e;
+}
+
+.btnColorDelete {
+    color: red;
+}
+
+.moreTitle,
+.moreTitle:hover {
+    color: #0379d4;
+}
